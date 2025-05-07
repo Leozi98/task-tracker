@@ -26,25 +26,22 @@ To run the task manager, execute the following command in your terminal:
 ```sh
 python src/main.py
 
-The CLI will provide options to add, update, delete, and list tasks.
+## The CLI will provide options to add, update, delete, and list tasks.
 
-Example Commands
-Adding a Task:
+## Example Commands
+## Adding a Task:
 python src/main.py add "Complete the project" --status done
-Updating a Task:
+## Updating a Task:
 python src/main.py update 1 --description "Update project description"
-Deleting a Task:
+## Deleting a Task:
 python src/main.py delete 1
-Listing Tasks:
+## Listing Tasks:
 python src/main.py list --status done
 
-Example Function
-The src/example.py file contains an example function to extract text between markers:
+## Example Function
+## The src/example.py file contains an example function to extract text between markers:
 def between_markers(text: str, start: str, end: str) -> str:
-    return text[text.find(start) + len(start):text.find(end)]
+    return text[text.find(start) + len(start):text.find(end)
 
-    This function can be imported and used in other parts of your project.
 
-Contributing
-Feel free to contribute by opening issues or pull requests. Ensure you follow the guidelines mentioned in this.
 https://roadmap.sh/projects/task-tracker
