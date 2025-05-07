@@ -42,6 +42,6 @@ python src/main.py list --status done
 ## The src/example.py file contains an example function to extract text between markers:
 def between_markers(text: str, start: str, end: str) -> str:
     return text[text.find(start) + len(start):text.find(end)
-
+```
 
 https://roadmap.sh/projects/task-tracker
